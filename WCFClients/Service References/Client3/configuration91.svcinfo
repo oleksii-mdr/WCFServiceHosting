@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IService3" contract="Client3.IService3" bindingType="basicHttpBinding" address="http://localhost:50458/Impl/Service3.svc" bindingConfiguration="BasicHttpBinding_IService3">
+    <endpoint name="BasicHttpBinding_IService3" contract="Client3.IService3" bindingType="basicHttpBinding" address="http://localhost:8083/Impl/Service3.svc" bindingConfiguration="BasicHttpBinding_IService3">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:50458/Impl/Service3.svc</serializedValue>
+          <serializedValue>http://localhost:8083/Impl/Service3.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
