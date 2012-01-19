@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Configuration.Install;
+﻿using System.Configuration.Install;
 using System.ComponentModel;
 using System.ServiceProcess;
 
@@ -11,8 +7,8 @@ namespace WindowsServiceHost
     [RunInstaller(true)]
     public class WindowsManagedServiceInstaller : Installer
     {
-        private ServiceProcessInstaller process;
-        private ServiceInstaller service;
+        private readonly ServiceProcessInstaller process;
+        private readonly ServiceInstaller service;
 
         public WindowsManagedServiceInstaller()
         {

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using WCFClients.Client1;
 using WCFClients.Client2;
 using WCFClients.Client3;

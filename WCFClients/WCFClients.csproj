@@ -35,14 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -82,7 +75,9 @@
     <None Include="Service References\Client2\Service21.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\Client3\Service3.wsdl" />
+    <None Include="Service References\Client3\Service3.wsdl">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\Client3\Service3.xsd">
       <SubType>Designer</SubType>
     </None>

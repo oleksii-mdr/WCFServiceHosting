@@ -1,5 +1,4 @@
-﻿using System;
-using WCFServices.Interfaces;
+﻿using WCFServices.Interfaces;
 
 namespace WCFServices.Impl
 {

@@ -1,19 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.ServiceProcess;
 using WCFServices.Interfaces;
 using System.Reflection;
-using System.IO;
-using WCFServices.Impl;
-using System.Diagnostics;
+
 
 namespace WindowsServiceHost
 {
     public class WindowsManagedServices : ServiceBase
     {
-        private List<IWindowsManagedService> services;
+        private readonly List<IWindowsManagedService> services;
 
         public WindowsManagedServices()
         {
